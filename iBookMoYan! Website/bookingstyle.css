@@ -4,7 +4,6 @@
 	box-sizing: border-box;
 	list-style: none;
 	font-family: 'Poppins', sans-serif;
-
 }
 #image {
 	padding-left: 0px;
@@ -50,7 +49,7 @@
 } 
 .body{
 	width: 100%;
-	height: 180vh;
+	height: 87vh;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -81,6 +80,8 @@
 .heading p{
 	font-size: 18px;
 }
+.container{
+	background-color: white;
 .roomlist{
 	width: 70%;
 	display: flex;
@@ -229,7 +230,53 @@
 	background-color: #f2f2f2;
 }
 .body2 h1{
+	color: black;
+}
+#center{
+	text-align: center;
+	padding-top: 50px;
+	font-size: 50px;
+}
+.containercenter{
+	background-color: #fff;
+    padding: 3rem;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+    margin-bottom: 1px;
+	border-radius: 20px;
+	text-align: center;
+}
+.rooms{
+	display: inline;
+	text-align: center;
+	border-radius: 12px;
+}
+.rooms h2{
+	color: rgb(255, 255, 255);
+	font-size: 35px;
+	letter-spacing: 3px;
+	border-radius: 1px;
+	padding: 30px 30px;
+	background-color: rgba(0, 0, 0, 0);
+}
+.rooms a{
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+	font-size: 18px;
+	border-radius: 12px;
+	padding: 12px 30px;
+	background-color: #fff;
+}
+.rooms a:hover{
+	background-color: #000;
+	color:#ffffff;
+	letter-spacing: 3px;
+	transition: 0.6s;
+}
+.roomlist{
+	width: auto;
+	display: flex;
+	justify-content: space-around;
 	background-color: #000;
 	color: white;
-
 }
