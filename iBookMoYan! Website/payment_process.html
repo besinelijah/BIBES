@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>iBookMoYan!</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="bookingstyle.css">
+    <link rel="icon" type="image/x-icon" href="icon2.png">
+</head>
+<body>
+	<div class="navbar">
+		<div class="logo">
+            <ul>
+
+                <li><a href="Main.html">iBookMoYan!</a></li>
+
+            </ul>
+		</div>
+		<div class="menu">
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="rooms.html">Rooms</a></li>
+				<li><a href="amenities.html">Amenities</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="paymentbody">
+        <div class="paycontainer2">
+            <div>
+                <h4>PAYMENT</h4>
+                <br>
+                <h4>Cards Accepted:</h4>
+                <img src="payment_cards.png" style="width: 220px; height: 33px;">
+                <br>
+                <form action="Payment_Details.sql" method="get">
+                    <label for="namecard">Name on Card:</label>
+                    <br>
+                    <input type="text" id="namecard" name="namecard" required>
+                    <br>
+                    <label for="cardnum">Credit Card Number:</label>
+                    <br>
+                    <input type="number" id="cardnum" name="cardnum" required>
+                    <br>
+                    <label for="expmonth">Exp Month:</label>
+                    <br>
+                    <input type="text" id="expmonth" name="expmonth" required>
+                    <br>
+                    <label for="expyear">Exp Year:</label>
+                    <br>
+                    <input type="number" id="expyear" name="expyear" required>
+                    <br>
+                    <label for="cvv">CVV:</label>
+                    <br>
+                    <input type="number" id="cvv" name="cvv" required>
+                    <br>
+                    <a href="payment_success.html"><input type="submit" value="Confirm" style="color:white; background-color: black; border-radius: 50px;"></a>
+                </form>
+            </div>
+        </div>
+	</div>
+</body>
+</html>
