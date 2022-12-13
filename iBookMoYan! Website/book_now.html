@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>iBookMoYan!</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="bookingstyle.css">
+</head>
+<body>
+	<div class="navbar">
+		<div class="logo">
+            <ul>
+
+                <li><a>iBookMoYan!</a></li>
+
+            </ul>
+		</div>
+		<div class="menu">
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="rooms.html">Rooms</a></li>
+				<li><a href="amenities.html">Amenities</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="booknowbody">
+		<div class="heading">
+            <img src="ICON.png" style="width: 400px; height: 390px; border: 1px solid rgb(255, 255, 255); border-radius: 12px;">
+		</div>
+		<div class="Details">
+			<div class="container">
+				<div>
+					<h2>Book Now!</h2>
+						<form action="Booking_Database.sql" method="get">
+						<label for="fname">First Name:</label>
+						<br>
+						<input type="text" id="fname" name="fname" required>
+						<br>
+						<label for="lname">Last Name:</label>
+						<br>
+						<input type="text" id="lname" name="lname" required>
+						<br>
+						<label for="date">Date:</label>
+						<br>
+						<input type="date" required>
+						<br>
+						<label for="cnum">Contact Number:</label>
+						<br>
+						<input type="tel" id="cnum" name="cnum" required>
+						<br>
+						<label for="timein">Time In:</label>
+						<br>
+						<input type="time" required>
+						<br>
+						<label for="timeout">Time Out:</label>
+						<br>
+						<input type="time" required>
+						<br>
+						<a href="booking_success.html"><input type="submit" value="Submit" style="color:white; background-color: black; border-radius: 50px;"></a>
+					</form>
+				</div>
+			</div>
+			<br>
+		</div>
+	</div>
+</body>
+</html>
